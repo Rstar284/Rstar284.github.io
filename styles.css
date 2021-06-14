@@ -1,9 +1,27 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
 body {
-    padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, #00AAFF, #cf0101b0);
+    height: 100%;
+    background-image: linear-gradient(0.25turn, #1D4581, #3C1C75);
   }
 
-  #text {
+  #image {
+    padding-top: 30px;
     text-align: center;
+  }
+
+  #text { 
+    text-align: center;
+    color: wheat;
+    font-family: sans-serif; 
+    color: white;
+    background-image: linear-gradient(0.25turn, );
+  }
+
+  a, a:visited {
+    color: #12A8F8;
   }
