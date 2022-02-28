@@ -13,13 +13,26 @@ body {
   }
 
   #image {
-    padding-top: 2.5rem;
+    paddin: 2rem;;
     text-align: center;
   }
 
   #image img {
     border-radius: 15%;
-  }
+    border: 1px solid #0f2443;
+    box-shadow:
+  1.8px 1.8px 6.8px rgba(0, 0, 0, -0.042),
+  3.6px 3.6px 14.1px rgba(0, 0, 0, -0.072),
+  5.4px 5.4px 22.4px rgba(0, 0, 0, -0.089),
+  7.4px 7.4px 34px rgba(0, 0, 0, -0.091),
+  9.4px 9.4px 49px rgba(0, 0, 0, -0.074),
+  11.5px 11.5px 54.4px rgba(0, 0, 0, -0.034),
+  14px 14px 58.9px rgba(0, 0, 0, 0.037),
+  17.1px 17.1px 63.1px rgba(0, 0, 0, 0.151),
+  21.7px 21.7px 67.1px rgba(0, 0, 0, 0.335),
+  50px 50px 71px rgba(0, 0, 0, 0.56)
+;
+}
 
   #text { 
     text-align: center;
